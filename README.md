@@ -7,13 +7,15 @@ This repo is a list of interesting projects for people looking to get into IT.
 - If you have an old computer, that can substitue instead of building a virtual machine for some projects.
 
 ## projects
-- Adguard Home
-- HomeAssistant
-- Plex
+- AdGuard Home - description
+- HomeAssistant - description
+- Plex - description
 
 
-
-
+## AdGuard Home
+- Description of project: AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. 
+- Here is the GitHub you will be working out of for this project: [https://github.com/AdguardTeam/AdGuardHome#getting-started](https://github.com/AdguardTeam/AdGuardHome)
+- 
 
 
 
