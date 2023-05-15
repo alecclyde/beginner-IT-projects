@@ -1,24 +1,42 @@
-# beginner-IT-projects
+# Beginner-IT-projects
 This repo is a list of interesting projects for people looking to get into IT.
 
-## pre-reqs
+## Pre-reqs
 - Most of these projects require you to run a virtual machine, which works best on a semi-powerful computer.
   - Download the latest version of VirtualBox, this will allow you to install virtual machines on your computer: https://www.virtualbox.org/wiki/Downloads.
-- If you have an old computer, that can substitue instead of building a virtual machine for some projects.
+- If you have an old computer, that can substitute instead of building a virtual machine for some projects.
 
-## projects
-- AdGuard Home - description
+## Projects
+- AdGuard Home - AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. 
 - HomeAssistant - description
-- Plex - description
+- Plex Media Server - description
 
 
 ## AdGuard Home
-- Description of project: AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. 
 - Here is the GitHub you will be working out of for this project: [https://github.com/AdguardTeam/AdGuardHome#getting-started](https://github.com/AdguardTeam/AdGuardHome)
-- 
+- With this project, you can control  network traffic comes in and out of your network. For example, if you have a Roku, Amazon TV, or some other smart media player, you can use a DNS blacklist that strictly removes advertizement and tracking data from that. **Be aware of what you are blocking, because it is possible to over-block and restrict access to good websites.**
+  - Some popular DNS blacklists to consider. Make sure to research what each list covers, as they may overlap significantly. (Make sure to find and use the raw output) 
+    - https://github.com/hagezi/dns-blocklists
+    - https://github.com/curbengh/phishing-filter
+    - https://github.com/AdguardTeam/AdGuardSDNSFilter
+
+  - You should always include a Whitelist to make sure you cover the basics. (One of the main issues I had was advertisement links in Google not working, this fixes that)
+    - https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist.txt
+    - https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt
+    - https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/optional-list.txt
+    - https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist-referral.txt
+    - https://raw.githubusercontent.com/SystemJargon/allowlists/main/lists/ios-basic-allowlist.txt
+    - https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/whitelist.txt
+
+## Home Assistant
+- Follow the guide for the appropriate Operating System you would like to install (Note: if you are installing in VirtualBox, Windows or Linux is recommended. Go for Linux if you want to practice your command-line skills): [https://www.home-assistant.io/installation/](https://www.home-assistant.io/installation/)
+- With HomeAssistant, you can install an AdGuard Home as an add-on. There are a ton of other integrations and add-ons to look at and consider. 
+
+## Plex Media Server
+- Follow this guide to install a Plex server: [https://support.plex.tv/articles/200264746-quick-start-step-by-step-guides/](https://support.plex.tv/articles/200264746-quick-start-step-by-step-guides/)
 
 
-
+## Potential Projects **Work in progress**:
 Network Monitoring: Set up a network monitoring system using tools like Nagios, Zabbix, or PRTG. Monitor network devices, services, and performance to identify and resolve issues proactively.
 
 Firewall Configuration: Build and configure a firewall using open-source software like pfSense or OPNsense. Learn about network security, create firewall rules, and control traffic flow.
