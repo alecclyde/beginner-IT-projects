@@ -1,17 +1,22 @@
 # Beginner-IT-projects
-This repo is a list of interesting projects for people looking to get into IT.
+This repo is a list of interesting projects for people looking to get into IT. Mostly just recommendations and links to walkthroughs.
 
 ## Pre-reqs
 - Most of these projects require you to run a virtual machine, which works best on a semi-powerful computer.
   - Download the latest version of VirtualBox, this will allow you to install virtual machines on your computer: https://www.virtualbox.org/wiki/Downloads.
 - If you have an old computer, that can substitute instead of building a virtual machine for some projects.
+- Other projects may require you to purchase hardware or software, please do the appropriate research and do so at your discretion. It is recommended to pursue projects that aid your career goals/interests, this list is a buffet for you to pick and choose.
 
-## Projects
-- AdGuard Home - AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. 
-- HomeAssistant - description
-- Plex Media Server - description
+## Table of Contents
+- Network Software/Self-Hosting
+  - AdGuard Home - AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. 
+  - HomeAssistant - description
+  - Plex Media Server - description
+- Cybersecurity
+  - Kali Linux - description
 
 
+# Projects
 ## AdGuard Home
 - Here is the GitHub you will be working out of for this project: [https://github.com/AdguardTeam/AdGuardHome#getting-started](https://github.com/AdguardTeam/AdGuardHome)
 - With this project, you can control  network traffic comes in and out of your network. For example, if you have a Roku, Amazon TV, or some other smart media player, you can use a DNS blacklist that strictly removes advertizement and tracking data from that. **Be aware of what you are blocking, because it is possible to over-block and restrict access to good websites.**
@@ -34,6 +39,22 @@ This repo is a list of interesting projects for people looking to get into IT.
 
 ## Plex Media Server
 - Follow this guide to install a Plex server: [https://support.plex.tv/articles/200264746-quick-start-step-by-step-guides/](https://support.plex.tv/articles/200264746-quick-start-step-by-step-guides/)
+
+## Kali Linux
+- If you have interest in cybersecurity, penetration testing, or any security project, high recommend downloading Kali linux (or other recommend Linux distros below) and getting familiar with the OS. If you are going to be installing the OS
+- Install options:
+  - VirtualBox
+    - https://www.kali.org/get-kali/#kali-virtual-machines
+    - https://www.kali.org/docs/virtualization/install-virtualbox-guest-vm/
+  - WSL
+    - An option if you have a Windows, however this will restrict you to only using command-line, which some tools will not work with.
+    - https://www.kali.org/docs/wsl/wsl-preparations/
+  - OS 
+    - An option if you have a spare PC or Laptop around. You will run into the most struggles in this area, but will learn the most.
+      - https://www.freecodecamp.org/news/how-to-install-kali-linux/
+  - After installing, you could do the following:
+    - Network scanning: (TODO)
+    - TODO
 
 
 ## Potential Projects **Work in progress**:
