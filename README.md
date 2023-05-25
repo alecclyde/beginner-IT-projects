@@ -59,7 +59,7 @@ This repo is a list of interesting projects for people looking to get into IT. M
   - These websites mostly paid, however you can get a taste for free. They are **fantastic** resources for walking through beginner cybersecurity topics and getting your feet wet.
 
 
-# Potential Projects **Work in progress**:
+# Potential Projects *work in progress*:
 Network Monitoring: Set up a network monitoring system using tools like Nagios, Zabbix, or PRTG. Monitor network devices, services, and performance to identify and resolve issues proactively.
 
 Firewall Configuration: Build and configure a firewall using open-source software like pfSense or OPNsense. Learn about network security, create firewall rules, and control traffic flow.
