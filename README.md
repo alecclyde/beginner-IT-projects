@@ -9,11 +9,11 @@ This repo is a list of interesting projects for people looking to get into IT. M
 
 ## Table of Contents
 - Network Software/Self-Hosting
-  - AdGuard Home - AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. 
-  - HomeAssistant - description
-  - Plex Media Server - description
+  - [AdGuard Home](#adguard-home) - AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. 
+  - [HomeAssistant](#homeassistant) - Home Assistant is open source home automation. It allows for a host of add-ons that can run your network.
 - Cybersecurity
-  - Kali Linux - description
+  - [Kali Linux](#Kali-Linux) - Kali Linux is a Linux distribution that is the backbone of the security industry. Getting familiar with this Operating System and command-line in general is a critical first-step.
+  - [TryHackMe or HackTheBox](#tryhackme--hackthebox) - Educational penetration testing platform. TryHackMe is easier, but HackTheBox Academy is a great platform as well.
 
 
 # Projects
@@ -33,12 +33,9 @@ This repo is a list of interesting projects for people looking to get into IT. M
     - https://raw.githubusercontent.com/SystemJargon/allowlists/main/lists/ios-basic-allowlist.txt
     - https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/whitelist.txt
 
-## Home Assistant
+## HomeAssistant
 - Follow the guide for the appropriate Operating System you would like to install (Note: if you are installing in VirtualBox, Windows or Linux is recommended. Go for Linux if you want to practice your command-line skills): [https://www.home-assistant.io/installation/](https://www.home-assistant.io/installation/)
 - With HomeAssistant, you can install an AdGuard Home as an add-on. There are a ton of other integrations and add-ons to look at and consider. 
-
-## Plex Media Server
-- Follow this guide to install a Plex server: [https://support.plex.tv/articles/200264746-quick-start-step-by-step-guides/](https://support.plex.tv/articles/200264746-quick-start-step-by-step-guides/)
 
 ## Kali Linux
 - If you have interest in cybersecurity, penetration testing, or any security project, high recommend downloading Kali linux (or other recommend Linux distros below) and getting familiar with the OS. If you are going to be installing the OS
@@ -55,6 +52,12 @@ This repo is a list of interesting projects for people looking to get into IT. M
   - After installing, you could do the following:
     - Network scanning: (TODO)
     - TODO
+
+## TryHackMe & HackTheBox
+  - https://tryhackme.com/
+  - https://academy.hackthebox.com/
+
+
 
 
 ## Potential Projects **Work in progress**:
