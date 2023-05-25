@@ -8,15 +8,30 @@ This repo is a list of interesting projects for people looking to get into IT. M
 - Other projects may require you to purchase hardware or software, please do the appropriate research and do so at your discretion. It is recommended to pursue projects that aid your career goals/interests, this list is a buffet for you to pick and choose.
 
 ## Table of Contents
-- Network Software/Self-Hosting
-  - [AdGuard Home](#adguard-home) - AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. 
-  - [HomeAssistant](#homeassistant) - Home Assistant is open source home automation. It allows for a host of add-ons that can run your network.
 - Cybersecurity
   - [Kali Linux](#Kali-Linux) - Kali Linux is a Linux distribution that is the backbone of the security industry. Getting familiar with this Operating System and command-line in general is a critical first-step.
   - [TryHackMe or HackTheBox](#tryhackme--hackthebox) - Educational penetration testing platform. TryHackMe is easier, but HackTheBox Academy is a great platform as well.
-
+- Network Software/Self-Hosting
+  - [AdGuard Home](#adguard-home) - AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. 
+  - [HomeAssistant](#homeassistant) - Home Assistant is open source home automation. It allows for a host of add-ons that can run your network.
 
 # Projects
+## Kali Linux
+- If you have interest in cybersecurity, penetration testing, or any security project, high recommend downloading Kali linux (or other recommend Linux distros below) and getting familiar with the OS. If you are going to be installing the OS
+- Install options:
+  - VirtualBox
+    - https://www.kali.org/get-kali/#kali-virtual-machines
+    - https://www.kali.org/docs/virtualization/install-virtualbox-guest-vm/
+  - WSL
+    - An option if you have a Windows, however this will restrict you to only using command-line, which some tools will not work with.
+    - https://www.kali.org/docs/wsl/wsl-preparations/
+  - OS 
+    - An option if you have a spare PC or Laptop around. You will run into the most struggles in this area, but will learn the most.
+      - https://www.freecodecamp.org/news/how-to-install-kali-linux/
+  - After installing, you could do the following:
+    - Network scanning: (TODO)
+    - TODO
+
 ## AdGuard Home
 - Here is the GitHub you will be working out of for this project: [https://github.com/AdguardTeam/AdGuardHome#getting-started](https://github.com/AdguardTeam/AdGuardHome)
 - With this project, you can control  network traffic comes in and out of your network. For example, if you have a Roku, Amazon TV, or some other smart media player, you can use a DNS blacklist that strictly removes advertizement and tracking data from that. **Be aware of what you are blocking, because it is possible to over-block and restrict access to good websites.**
@@ -37,30 +52,14 @@ This repo is a list of interesting projects for people looking to get into IT. M
 - Follow the guide for the appropriate Operating System you would like to install (Note: if you are installing in VirtualBox, Windows or Linux is recommended. Go for Linux if you want to practice your command-line skills): [https://www.home-assistant.io/installation/](https://www.home-assistant.io/installation/)
 - With HomeAssistant, you can install an AdGuard Home as an add-on. There are a ton of other integrations and add-ons to look at and consider. 
 
-## Kali Linux
-- If you have interest in cybersecurity, penetration testing, or any security project, high recommend downloading Kali linux (or other recommend Linux distros below) and getting familiar with the OS. If you are going to be installing the OS
-- Install options:
-  - VirtualBox
-    - https://www.kali.org/get-kali/#kali-virtual-machines
-    - https://www.kali.org/docs/virtualization/install-virtualbox-guest-vm/
-  - WSL
-    - An option if you have a Windows, however this will restrict you to only using command-line, which some tools will not work with.
-    - https://www.kali.org/docs/wsl/wsl-preparations/
-  - OS 
-    - An option if you have a spare PC or Laptop around. You will run into the most struggles in this area, but will learn the most.
-      - https://www.freecodecamp.org/news/how-to-install-kali-linux/
-  - After installing, you could do the following:
-    - Network scanning: (TODO)
-    - TODO
-
 ## TryHackMe & HackTheBox
   - https://tryhackme.com/
   - https://academy.hackthebox.com/
 
+  - These websites mostly paid, however you can get a taste for free. They are **fantastic** resources for walking through beginner cybersecurity topics and getting your feet wet.
 
 
-
-## Potential Projects **Work in progress**:
+# Potential Projects **Work in progress**:
 Network Monitoring: Set up a network monitoring system using tools like Nagios, Zabbix, or PRTG. Monitor network devices, services, and performance to identify and resolve issues proactively.
 
 Firewall Configuration: Build and configure a firewall using open-source software like pfSense or OPNsense. Learn about network security, create firewall rules, and control traffic flow.
